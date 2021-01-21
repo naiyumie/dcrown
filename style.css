@@ -1,0 +1,42 @@
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+*{font-size:18x;}
+.wrap{width: 540px; height:100%; margin: auto; text-align: center;}
+.wrap.mobliewrap{width:100%;}
+body {margin: 10px;}
+table.bossTable {width: 100%;border-collapse: collapse;text-align: center;line-height: 2;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;border-left: 1px solid #ccc;border-right: 1px solid #ccc;}
+table.bossTable thead th {font-weight: bold;vertical-align: top;color: #fff;background: silver;font-size: 12px;}
+table.bossTable td {padding: 0px;vertical-align: top;font-size:1em;}
+table.bossTable .even {background: #f2f2f2;}
+.floorButton {margin-bottom: 20px;width:33%;margin:0 auto;}
+.floorNav{position:relative;width:100%;float:left;height: 30px;}
+.floorButtonLeft,
+.floorButtonRight{padding: 7px 0px;width:20%;position:absolute;top:0;background-color:silver;cursor:pointer;color:#ffffff;font-weight:bold;text-decoration:none;line-height:1;border:0;}
+.floorButtonLeft{left:0;float:left;}
+.floorButtonRight{right:0;float:right;}
+.floorNoWrap{width: 60%;margin: 0 auto;height: 27px;position: relative;}
+.floorNo{text-align: center;height: 23px;vertical-align: top;width:55%;float:left;margin-left:5px;border:1px solid silver;}
+.floorNoBtn{text-align: center;position: relative;vertical-align: top;width:35%;float:left;margin-left:5px;font-size:18px;}
+.dload{font-weight: bold;color: white;width: 100%;background-color: red;display: inline-block;}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.floorNoBtn{font-size:12px;}
+	.floorButtonLeft,
+	.floorButtonRight{padding: 5px 0px;}
+}
